@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Symbol:</strong>
+  <%= @financial_statement.symbol %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @financial_statement.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @financial_statement.price %>
+</p>
+
+<%= link_to 'Edit', edit_financial_statement_path(@financial_statement) %> |
+<%= link_to 'Back', financial_statements_path %>
